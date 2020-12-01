@@ -18,6 +18,14 @@
         {
             "type": "vcs",
             "url": "git@github.com:Islandora/islandora.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jhu-idc/islandora_defaults.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:jhu-idc/idc_field_widgets.git"
         }
     ],
     "require": {
@@ -41,7 +49,7 @@
         "drush/drush": "^9.7.1",
         "islandora-rdm/islandora_fits": "dev-master",
         "islandora/carapace": "dev-8.x-3.x",
-        "islandora/islandora_defaults": "dev-8.x-1.x",
+        "jhu-idc/islandora_defaults": "dev-8.x-1.x",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"
