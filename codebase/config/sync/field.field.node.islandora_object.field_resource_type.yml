@@ -13,8 +13,8 @@ field_name: field_resource_type
 entity_type: node
 bundle: islandora_object
 label: 'Resource Type'
-description: ''
-required: false
+description: '<b>Required.</b> Record the nature or genre of the resource. Please select a term from the Resource Types Taxonomy.'
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''

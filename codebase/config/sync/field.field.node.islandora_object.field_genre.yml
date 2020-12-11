@@ -12,8 +12,8 @@ id: node.islandora_object.field_genre
 field_name: field_genre
 entity_type: node
 bundle: islandora_object
-label: Genre
-description: ''
+label: Genre/Form
+description: '<b>Optional.</b>'
 required: false
 translatable: false
 default_value: {  }

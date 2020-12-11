@@ -12,7 +12,7 @@ field_name: field_oclc_number
 entity_type: node
 bundle: islandora_object
 label: 'OCLC Number'
-description: ''
+description: '<b>Required if known.</b> Record the OCLC Control Number for the resource. Please exclude prefixes (''ocm'', ''ocn'', ''on'', ''OCoLC'').'
 required: false
 translatable: false
 default_value: {  }

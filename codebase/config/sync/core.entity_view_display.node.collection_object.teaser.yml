@@ -1,0 +1,88 @@
+uuid: dc142657-e458-45e3-8ec8-6b3bc5ae0b33
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.collection_object.field_alternative_title
+    - field.field.node.collection_object.field_citable_url
+    - field.field.node.collection_object.field_collection_contact_email
+    - field.field.node.collection_object.field_collection_contact_name
+    - field.field.node.collection_object.field_collection_number
+    - field.field.node.collection_object.field_description
+    - field.field.node.collection_object.field_featured_item
+    - field.field.node.collection_object.field_finding_aid
+    - node.type.collection_object
+  module:
+    - user
+id: node.collection_object.teaser
+targetEntityType: node
+bundle: collection_object
+mode: teaser
+content:
+  display_media_entity_view_1:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  display_media_entity_view_2:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  display_media_service_file:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  display_media_thumbnail:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  openseadragon_media_evas_entity_view_1:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  openseadragon_media_evas_entity_view_2:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  openseadragon_media_evas_service_file:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  pdfjs_media_evas_entity_view_1:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  pdfjs_media_evas_entity_view_2:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  pdfjs_media_evas_service_file:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_alternative_title: true
+  field_citable_url: true
+  field_collection_contact_email: true
+  field_collection_contact_name: true
+  field_collection_number: true
+  field_description: true
+  field_featured_item: true
+  field_finding_aid: true
+  langcode: true
+  search_api_excerpt: true
