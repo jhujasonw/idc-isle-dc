@@ -15,6 +15,7 @@ dependencies:
     - field.field.node.islandora_object.field_date_copyrighted
     - field.field.node.islandora_object.field_date_created
     - field.field.node.islandora_object.field_date_published
+    - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_display_hints
     - field.field.node.islandora_object.field_extent
     - field.field.node.islandora_object.field_featured_item
@@ -147,6 +148,15 @@ content:
       day_format: dd
     third_party_settings: {  }
     type: edtf_default
+    region: content
+  field_description:
+    weight: 114
+    label: above
+    settings:
+      display_invalid_reference: 1
+      invalid_reference_label: ''
+    third_party_settings: {  }
+    type: reference_value_formatter
     region: content
   field_extent:
     type: string

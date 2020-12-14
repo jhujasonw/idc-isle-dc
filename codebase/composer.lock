@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "26d7d941aef5a711a7859a4809d532f4",
+    "content-hash": "df4a46638015b0ff67f32243dc13ec66",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -3933,54 +3933,6 @@
             }
         },
         {
-            "name": "drupal/hook_post_action",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/hook_post_action.git",
-                "reference": "8.x-1.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/hook_post_action-8.x-1.0.zip",
-                "reference": "8.x-1.0",
-                "shasum": "be3caa9444ff5b2a34af583dba3d7020661d2fdc"
-            },
-            "require": {
-                "drupal/core": "~8.0"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0",
-                    "datestamp": "1540978980",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "id.tarzanych",
-                    "homepage": "https://www.drupal.org/user/2776543"
-                },
-                {
-                    "name": "sinasalek",
-                    "homepage": "https://www.drupal.org/user/52244"
-                }
-            ],
-            "description": "Introduces new Drupal hooks, hook_entity_postsave, hook_entity_postinsert, hook_entity_postupdate, hook_entity_postdelete, hook_node_postsave, hook_node_postinsert, hook_node_postupdate, hook_node_postdelete",
-            "homepage": "https://www.drupal.org/project/hook_post_action",
-            "support": {
-                "source": "https://git.drupalcode.org/project/hook_post_action"
-            }
-        },
-        {
             "name": "drupal/jwt",
             "version": "1.0.0-beta5",
             "source": {
@@ -4779,7 +4731,7 @@
             "extra": {
                 "drupal": {
                     "version": "8.x-1.18",
-                    "datestamp": "1603359374",
+                    "datestamp": "1605204423",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -4984,26 +4936,26 @@
         },
         {
             "name": "drupal/token",
-            "version": "1.7.0",
+            "version": "1.8.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/token.git",
-                "reference": "8.x-1.7"
+                "reference": "8.x-1.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "c7e3a3757282e4c94e3c1fff08d01e22155cb853"
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.8.zip",
+                "reference": "8.x-1.8",
+                "shasum": "f8e3b8f897817969324d88019438066b533bfe42"
             },
             "require": {
-                "drupal/core": "^8.7.7 || ^9"
+                "drupal/core": "^8.8 || ^9"
             },
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1589314266",
+                    "version": "8.x-1.8",
+                    "datestamp": "1607552423",
                     "security-coverage": {
                         "status": "covered",
                         "message": "Covered by Drupal's security advisory policy"
@@ -5017,7 +4969,7 @@
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0+"
+                "GPL-2.0-or-later"
             ],
             "authors": [
                 {
@@ -5963,12 +5915,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/chullo.git",
-                "reference": "bf14eca89552701e37fb7460d4eaad6f4dd3fecc"
+                "reference": "3a971f1d24e62d65b6e841000d0546326992ddaa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/chullo/zipball/bf14eca89552701e37fb7460d4eaad6f4dd3fecc",
-                "reference": "bf14eca89552701e37fb7460d4eaad6f4dd3fecc",
+                "url": "https://api.github.com/repos/Islandora/chullo/zipball/3a971f1d24e62d65b6e841000d0546326992ddaa",
+                "reference": "3a971f1d24e62d65b6e841000d0546326992ddaa",
                 "shasum": ""
             },
             "require": {
@@ -6012,59 +5964,7 @@
             ],
             "description": "A PHP client for interacting with a Fedora 4 server.",
             "homepage": "https://github.com/Islandora/chullo",
-            "time": "2020-11-12T23:34:34+00:00"
-        },
-        {
-            "name": "islandora/controlled_access_terms",
-            "version": "dev-8.x-1.x",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Islandora/controlled_access_terms.git",
-                "reference": "223762b38459e44ef670d50906910b0b52a97913"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/controlled_access_terms/zipball/223762b38459e44ef670d50906910b0b52a97913",
-                "reference": "223762b38459e44ef670d50906910b0b52a97913",
-                "shasum": ""
-            },
-            "require": {
-                "drupal/geolocation": "^3.2",
-                "drupal/token": "^1.7"
-            },
-            "require-dev": {
-                "drupal/coder": "*",
-                "phpunit/phpunit": "^6",
-                "sebastian/phpcpd": "*",
-                "squizlabs/php_codesniffer": "2.7.1"
-            },
-            "suggest": {
-                "drupal/name": "Provides western-centric structured names."
-            },
-            "type": "drupal-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Islandora Foundation",
-                    "email": "community@islandora.ca",
-                    "role": "Owner"
-                },
-                {
-                    "name": "Seth Shaw",
-                    "email": "seth.shaw@unlv.edu",
-                    "role": "Maintainer"
-                }
-            ],
-            "description": "Drupal module for subjects and agents",
-            "homepage": "https://github.com/Islandora/controlled_access_terms",
-            "keywords": [
-                "Islandora",
-                "drupal"
-            ],
-            "time": "2020-12-02T18:40:57+00:00"
+            "time": "2020-12-10T19:10:29+00:00"
         },
         {
             "name": "islandora/crayfish-commons",
@@ -6130,12 +6030,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/islandora.git",
-                "reference": "6d11796be8d9acc583ecf24d0003231447a40025"
+                "reference": "792b3d3ae28a2d1bdb94f114192fda9ef531481a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/islandora/zipball/6d11796be8d9acc583ecf24d0003231447a40025",
-                "reference": "6d11796be8d9acc583ecf24d0003231447a40025",
+                "url": "https://api.github.com/repos/Islandora/islandora/zipball/792b3d3ae28a2d1bdb94f114192fda9ef531481a",
+                "reference": "792b3d3ae28a2d1bdb94f114192fda9ef531481a",
                 "shasum": ""
             },
             "require": {
@@ -6145,7 +6045,6 @@
                 "drupal/file_replace": "^1.1",
                 "drupal/filehash": "^1.1",
                 "drupal/flysystem": "^1.0",
-                "drupal/hook_post_action": "^1.0",
                 "drupal/jwt": "^1.0.0-beta5",
                 "drupal/migrate_plus": "^5.1",
                 "drupal/migrate_source_csv": "^2.1",
@@ -6192,7 +6091,7 @@
                 "issues": "https://github.com/Islandora/documentation/issues",
                 "source": "https://github.com/Islandora/islandora/tree/8.x-1.x"
             },
-            "time": "2020-12-01T21:17:27+00:00"
+            "time": "2020-12-11T14:23:02+00:00"
         },
         {
             "name": "islandora/jsonld",
@@ -6200,12 +6099,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/jsonld.git",
-                "reference": "7809f3b4889bd80070869179ebe78bcfb9ea4779"
+                "reference": "36f6ca8c037cd381a05602a62b0d5d64af53318e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/jsonld/zipball/7809f3b4889bd80070869179ebe78bcfb9ea4779",
-                "reference": "7809f3b4889bd80070869179ebe78bcfb9ea4779",
+                "url": "https://api.github.com/repos/Islandora/jsonld/zipball/36f6ca8c037cd381a05602a62b0d5d64af53318e",
+                "reference": "36f6ca8c037cd381a05602a62b0d5d64af53318e",
                 "shasum": ""
             },
             "type": "drupal-module",
@@ -6227,7 +6126,7 @@
             ],
             "description": "JSON-LD serializer for Drupal 8",
             "homepage": "https://github.com/Islandora/jsonld",
-            "time": "2020-11-23T23:20:41+00:00"
+            "time": "2020-12-10T20:28:35+00:00"
         },
         {
             "name": "islandora/openseadragon",
@@ -6235,16 +6134,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/openseadragon.git",
-                "reference": "60acf2287fababdf04958657f66c4b18898bd4b6"
+                "reference": "1401a03bb689aa7a223e4431efde8af01c0a83d4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/openseadragon/zipball/60acf2287fababdf04958657f66c4b18898bd4b6",
-                "reference": "60acf2287fababdf04958657f66c4b18898bd4b6",
+                "url": "https://api.github.com/repos/Islandora/openseadragon/zipball/1401a03bb689aa7a223e4431efde8af01c0a83d4",
+                "reference": "1401a03bb689aa7a223e4431efde8af01c0a83d4",
                 "shasum": ""
             },
             "require": {
-                "drupal/libraries": "dev-3.x",
                 "drupal/token": "^1.3"
             },
             "type": "drupal-module",
@@ -6276,7 +6174,62 @@
                 "drupal",
                 "openseadragon"
             ],
-            "time": "2020-11-24T00:48:05+00:00"
+            "time": "2020-12-10T14:46:02+00:00"
+        },
+        {
+            "name": "jhu-idc/controlled_access_terms",
+            "version": "dev-config_taxonomy_terms",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jhu-idc/controlled_access_terms.git",
+                "reference": "4c4b71ea10b7f2bb55c1e311023185f119f13c48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jhu-idc/controlled_access_terms/zipball/4c4b71ea10b7f2bb55c1e311023185f119f13c48",
+                "reference": "4c4b71ea10b7f2bb55c1e311023185f119f13c48",
+                "shasum": ""
+            },
+            "require": {
+                "drupal/geolocation": "^3.2",
+                "drupal/token": "^1.7"
+            },
+            "require-dev": {
+                "drupal/coder": "*",
+                "phpunit/phpunit": "^6",
+                "sebastian/phpcpd": "*",
+                "squizlabs/php_codesniffer": "2.7.1"
+            },
+            "suggest": {
+                "drupal/name": "Provides western-centric structured names."
+            },
+            "type": "drupal-module",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Islandora Foundation",
+                    "email": "community@islandora.ca",
+                    "role": "Owner"
+                },
+                {
+                    "name": "Seth Shaw",
+                    "email": "seth.shaw@unlv.edu",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Drupal module for subjects and agents",
+            "homepage": "https://github.com/jhu-idc/controlled_access_terms",
+            "keywords": [
+                "Drupal",
+                "Islandora"
+            ],
+            "support": {
+                "issues": "https://github.com/jhu-idc/controlled_access_terms/issues",
+                "source": "https://github.com/jhu-idc/controlled_access_terms/tree/config_taxonomy_terms"
+            },
+            "time": "2020-12-11T20:29:16+00:00"
         },
         {
             "name": "jhu-idc/islandora_defaults",
@@ -6284,21 +6237,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jhu-idc/islandora_defaults.git",
-                "reference": "e16a2d4dc7759e77645ac1a6f800c85e03544cf6"
+                "reference": "cc7c06cf14563693322667d3aa1050e11a9383a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jhu-idc/islandora_defaults/zipball/e16a2d4dc7759e77645ac1a6f800c85e03544cf6",
-                "reference": "e16a2d4dc7759e77645ac1a6f800c85e03544cf6",
+                "url": "https://api.github.com/repos/jhu-idc/islandora_defaults/zipball/cc7c06cf14563693322667d3aa1050e11a9383a8",
+                "reference": "cc7c06cf14563693322667d3aa1050e11a9383a8",
                 "shasum": ""
             },
             "require": {
                 "drupal/field_group": "^3.0",
                 "drupal/field_permissions": "^1.0",
                 "drupal/permissions_by_term": "^1.51",
-                "islandora/controlled_access_terms": "dev-8.x-1.x",
                 "islandora/islandora": "dev-8.x-1.x",
                 "islandora/openseadragon": "dev-8.x-1.x",
+                "jhu-idc/controlled_access_terms": "dev-config_taxonomy_terms",
                 "jhu-idc/reference_value_pair": "dev-main"
             },
             "type": "drupal-module",
@@ -6315,7 +6268,7 @@
                 "issues": "https://github.com/jhu-idc/islandora_defaults/issues",
                 "source": "https://github.com/jhu-idc/islandora_defaults/tree/config_content_types"
             },
-            "time": "2020-12-04T13:09:57+00:00"
+            "time": "2020-12-11T20:10:56+00:00"
         },
         {
             "name": "jhu-idc/reference_value_pair",
@@ -10470,27 +10423,26 @@
         },
         {
             "name": "symfony/contracts",
-            "version": "v2.3.1",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "f7783bdec14b06c323d30a5f74ba70a17ec0ce81"
+                "reference": "b3b9b70bfacfd204d352e7e7350e02c02c0fff78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/f7783bdec14b06c323d30a5f74ba70a17ec0ce81",
-                "reference": "f7783bdec14b06c323d30a5f74ba70a17ec0ce81",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/b3b9b70bfacfd204d352e7e7350e02c02c0fff78",
+                "reference": "b3b9b70bfacfd204d352e7e7350e02c02c0fff78",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2.5",
+                "php": "^7.2.5",
                 "psr/cache": "^1.0",
                 "psr/container": "^1.0",
                 "psr/event-dispatcher": "^1.0"
             },
             "replace": {
                 "symfony/cache-contracts": "self.version",
-                "symfony/deprecation-contracts": "self.version",
                 "symfony/event-dispatcher-contracts": "self.version",
                 "symfony/http-client-contracts": "self.version",
                 "symfony/service-contracts": "self.version",
@@ -10508,18 +10460,14 @@
             },
             "type": "library",
             "extra": {
-                "branch-version": "2.3",
                 "branch-alias": {
-                    "dev-main": "2.3-dev"
+                    "dev-master": "2.0-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "Symfony\\Contracts\\": ""
                 },
-                "files": [
-                    "Deprecation/function.php"
-                ],
                 "exclude-from-classmap": [
                     "**/Tests/"
                 ]
@@ -10548,7 +10496,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2020-10-14T17:08:19+00:00"
+            "time": "2019-11-26T23:25:11+00:00"
         },
         {
             "name": "symfony/css-selector",
@@ -10724,6 +10672,56 @@
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
             "time": "2020-07-23T09:37:51+00:00"
+        },
+        {
+            "name": "symfony/deprecation-contracts",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/deprecation-contracts.git",
+                "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+                "reference": "5fa56b4074d1ae755beb55617ddafe6f5d78f665",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.2-dev"
+                },
+                "thanks": {
+                    "name": "symfony/contracts",
+                    "url": "https://github.com/symfony/contracts"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "function.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "A generic function and convention to trigger deprecation notices",
+            "homepage": "https://symfony.com",
+            "time": "2020-09-07T11:33:47+00:00"
         },
         {
             "name": "symfony/dom-crawler",
@@ -15630,6 +15628,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/content_browser": 15,
+        "drupal/libraries": 20,
         "drupal/name": 5,
         "drupal/pdf": 20,
         "islandora-rdm/islandora_fits": 20,

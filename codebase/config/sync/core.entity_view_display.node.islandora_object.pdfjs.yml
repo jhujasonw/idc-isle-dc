@@ -16,6 +16,7 @@ dependencies:
     - field.field.node.islandora_object.field_date_copyrighted
     - field.field.node.islandora_object.field_date_created
     - field.field.node.islandora_object.field_date_published
+    - field.field.node.islandora_object.field_description
     - field.field.node.islandora_object.field_display_hints
     - field.field.node.islandora_object.field_extent
     - field.field.node.islandora_object.field_featured_item
@@ -134,6 +135,7 @@ hidden:
   field_date_copyrighted: true
   field_date_created: true
   field_date_published: true
+  field_description: true
   field_display_hints: true
   field_featured_item: true
   field_model: true
