@@ -55,7 +55,7 @@
         "drush/drush": "^9.7.1",
         "islandora-rdm/islandora_fits": "dev-master",
         "islandora/carapace": "dev-8.x-3.x",
-        "jhu-idc/islandora_defaults": "dev-config_content_types",
+        "jhu-idc/islandora_defaults": "dev-8.x-1.x",
         "vlucas/phpdotenv": "^4.0",
         "webflo/drupal-finder": "^1.0.0",
         "zaporylie/composer-drupal-optimizations": "^1.0"

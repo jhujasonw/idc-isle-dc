@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "df4a46638015b0ff67f32243dc13ec66",
+    "content-hash": "d54efe2f2c76044d14b03c41734fea43",
     "packages": [
         {
             "name": "alchemy/zippy",
@@ -1757,6 +1757,20 @@
                 "sqlite",
                 "sqlserver",
                 "sqlsrv"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fdbal",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-11-14T20:26:58+00:00"
         },
@@ -5915,25 +5929,25 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/chullo.git",
-                "reference": "3a971f1d24e62d65b6e841000d0546326992ddaa"
+                "reference": "6a5454e2bcdb2b24bf481b842692d4d1de6a0287"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/chullo/zipball/3a971f1d24e62d65b6e841000d0546326992ddaa",
-                "reference": "3a971f1d24e62d65b6e841000d0546326992ddaa",
+                "url": "https://api.github.com/repos/Islandora/chullo/zipball/6a5454e2bcdb2b24bf481b842692d4d1de6a0287",
+                "reference": "6a5454e2bcdb2b24bf481b842692d4d1de6a0287",
                 "shasum": ""
             },
             "require": {
-                "easyrdf/easyrdf": "^0.9.1",
+                "easyrdf/easyrdf": "^0.9 || ^1",
                 "guzzlehttp/guzzle": "^6.1.0",
                 "ml/json-ld": "^1.0.4",
-                "php": ">=5.6.0"
+                "php": "^7.3 || ^7.4"
             },
             "require-dev": {
                 "mockery/mockery": "^0.9",
-                "phpunit/phpunit": "^5.0",
-                "sebastian/phpcpd": "^3.0",
-                "squizlabs/php_codesniffer": "^2.0"
+                "phpunit/phpunit": "^9.0",
+                "sebastian/phpcpd": "^6.0",
+                "squizlabs/php_codesniffer": "^3.0"
             },
             "type": "library",
             "autoload": {
@@ -5964,7 +5978,7 @@
             ],
             "description": "A PHP client for interacting with a Fedora 4 server.",
             "homepage": "https://github.com/Islandora/chullo",
-            "time": "2020-12-10T19:10:29+00:00"
+            "time": "2020-12-11T21:38:08+00:00"
         },
         {
             "name": "islandora/crayfish-commons",
@@ -5972,12 +5986,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Islandora/Crayfish-Commons.git",
-                "reference": "d7c0044723c2089f7757fb5c9dd523397938a8e9"
+                "reference": "f53e8da757c1632dc7fcdd392d8896dc7bcfb2b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Islandora/Crayfish-Commons/zipball/d7c0044723c2089f7757fb5c9dd523397938a8e9",
-                "reference": "d7c0044723c2089f7757fb5c9dd523397938a8e9",
+                "url": "https://api.github.com/repos/Islandora/Crayfish-Commons/zipball/f53e8da757c1632dc7fcdd392d8896dc7bcfb2b9",
+                "reference": "f53e8da757c1632dc7fcdd392d8896dc7bcfb2b9",
                 "shasum": ""
             },
             "require": {
@@ -6178,16 +6192,16 @@
         },
         {
             "name": "jhu-idc/controlled_access_terms",
-            "version": "dev-config_taxonomy_terms",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jhu-idc/controlled_access_terms.git",
-                "reference": "4c4b71ea10b7f2bb55c1e311023185f119f13c48"
+                "reference": "641bc66ffaeadecb38b1905eeb769ad87833a0e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jhu-idc/controlled_access_terms/zipball/4c4b71ea10b7f2bb55c1e311023185f119f13c48",
-                "reference": "4c4b71ea10b7f2bb55c1e311023185f119f13c48",
+                "url": "https://api.github.com/repos/jhu-idc/controlled_access_terms/zipball/641bc66ffaeadecb38b1905eeb769ad87833a0e6",
+                "reference": "641bc66ffaeadecb38b1905eeb769ad87833a0e6",
                 "shasum": ""
             },
             "require": {
@@ -6227,22 +6241,22 @@
             ],
             "support": {
                 "issues": "https://github.com/jhu-idc/controlled_access_terms/issues",
-                "source": "https://github.com/jhu-idc/controlled_access_terms/tree/config_taxonomy_terms"
+                "source": "https://github.com/jhu-idc/controlled_access_terms/tree/8.x-1.x"
             },
-            "time": "2020-12-11T20:29:16+00:00"
+            "time": "2020-12-14T22:39:52+00:00"
         },
         {
             "name": "jhu-idc/islandora_defaults",
-            "version": "dev-config_content_types",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jhu-idc/islandora_defaults.git",
-                "reference": "cc7c06cf14563693322667d3aa1050e11a9383a8"
+                "reference": "ad6592cb77ec9faddc4e8e8e6efa3b30f7df0906"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jhu-idc/islandora_defaults/zipball/cc7c06cf14563693322667d3aa1050e11a9383a8",
-                "reference": "cc7c06cf14563693322667d3aa1050e11a9383a8",
+                "url": "https://api.github.com/repos/jhu-idc/islandora_defaults/zipball/ad6592cb77ec9faddc4e8e8e6efa3b30f7df0906",
+                "reference": "ad6592cb77ec9faddc4e8e8e6efa3b30f7df0906",
                 "shasum": ""
             },
             "require": {
@@ -6251,7 +6265,7 @@
                 "drupal/permissions_by_term": "^1.51",
                 "islandora/islandora": "dev-8.x-1.x",
                 "islandora/openseadragon": "dev-8.x-1.x",
-                "jhu-idc/controlled_access_terms": "dev-config_taxonomy_terms",
+                "jhu-idc/controlled_access_terms": "dev-8.x-1.x",
                 "jhu-idc/reference_value_pair": "dev-main"
             },
             "type": "drupal-module",
@@ -6266,9 +6280,9 @@
             ],
             "support": {
                 "issues": "https://github.com/jhu-idc/islandora_defaults/issues",
-                "source": "https://github.com/jhu-idc/islandora_defaults/tree/config_content_types"
+                "source": "https://github.com/jhu-idc/islandora_defaults/tree/8.x-1.x"
             },
-            "time": "2020-12-11T20:10:56+00:00"
+            "time": "2020-12-14T22:27:53+00:00"
         },
         {
             "name": "jhu-idc/reference_value_pair",
@@ -6740,6 +6754,12 @@
                 "sftp",
                 "storage"
             ],
+            "funding": [
+                {
+                    "url": "https://offset.earth/frankdejonge",
+                    "type": "other"
+                }
+            ],
             "time": "2020-08-23T07:39:11+00:00"
         },
         {
@@ -6827,6 +6847,16 @@
                 }
             ],
             "description": "Mime-type detection for Flysystem",
+            "funding": [
+                {
+                    "url": "https://github.com/frankdejonge",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/league/flysystem",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-10-18T11:50:25+00:00"
         },
         {
@@ -7055,16 +7085,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.25.5",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0"
+                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1817faadd1846cd08be9a49e905dc68823bc38c0",
-                "reference": "1817faadd1846cd08be9a49e905dc68823bc38c0",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
+                "reference": "2209ddd84e7ef1256b7af205d0717fb62cfc9c33",
                 "shasum": ""
             },
             "require": {
@@ -7080,7 +7110,7 @@
                 "graylog2/gelf-php": "~1.0",
                 "php-amqplib/php-amqplib": "~2.4",
                 "php-console/php-console": "^3.1.3",
-                "php-parallel-lint/php-parallel-lint": "^1.0",
+                "phpstan/phpstan": "^0.12.59",
                 "phpunit/phpunit": "~4.5",
                 "ruflin/elastica": ">=0.90 <3.0",
                 "sentry/sentry": "^0.13",
@@ -7100,11 +7130,6 @@
                 "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0.x-dev"
-                }
-            },
             "autoload": {
                 "psr-4": {
                     "Monolog\\": "src/Monolog"
@@ -7128,7 +7153,17 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2020-07-23T08:35:51+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-12-14T12:56:38+00:00"
         },
         {
             "name": "myclabs/php-enum",
@@ -10168,6 +10203,16 @@
                 "rabbitmq",
                 "stomp"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/jmglsn",
+                    "type": "github"
+                },
+                {
+                    "url": "https://github.com/staabm",
+                    "type": "github"
+                }
+            ],
             "time": "2020-06-15T18:01:49+00:00"
         },
         {
@@ -10721,6 +10766,20 @@
             ],
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-09-07T11:33:47+00:00"
         },
         {
@@ -11124,6 +11183,20 @@
                 "symfony",
                 "words"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-10-24T12:01:57+00:00"
         },
         {
@@ -11312,6 +11385,20 @@
                 "polyfill",
                 "portable",
                 "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-10-23T14:02:19+00:00"
         },
@@ -11851,6 +11938,20 @@
                 "property path",
                 "reflection"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-10-31T22:44:29+00:00"
         },
         {
@@ -12065,6 +12166,20 @@
             ],
             "description": "Symfony Security Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-10-28T05:23:51+00:00"
         },
         {
@@ -12209,6 +12324,20 @@
                 "unicode",
                 "utf-8",
                 "utf8"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-10-24T12:08:07+00:00"
         },

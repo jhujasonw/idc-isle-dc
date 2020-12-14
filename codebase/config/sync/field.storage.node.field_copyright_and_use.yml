@@ -1,27 +1,23 @@
-uuid: e7e9d95d-a620-4577-b674-fa3471ce6b93
+uuid: e06e4d58-7b58-44e3-9c31-601ab55f2161
 langcode: en
 status: true
 dependencies:
-  enforced:
-    module:
-      - islandora_core_feature
   module:
     - field_permissions
     - node
+    - taxonomy
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: bTNRxi4dh4w5KDrXJWN93blJBmstLhL8T8fm4Euy6Bc
-id: node.field_member_of
-field_name: field_member_of
+id: node.field_copyright_and_use
+field_name: field_copyright_and_use
 entity_type: node
 type: entity_reference
 settings:
-  target_type: node
+  target_type: taxonomy_term
 module: core
 locked: false
-cardinality: -1
+cardinality: 1
 translatable: true
 indexes: {  }
 persist_with_no_fields: false

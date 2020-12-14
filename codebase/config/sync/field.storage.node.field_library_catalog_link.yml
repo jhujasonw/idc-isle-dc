@@ -1,23 +1,20 @@
-uuid: 093504c9-453c-4427-83f5-060824f01d16
+uuid: 3561fa02-45ad-4311-8446-e1428ab9fd54
 langcode: en
 status: true
 dependencies:
   module:
     - field_permissions
+    - link
     - node
-    - taxonomy
 third_party_settings:
   field_permissions:
     permission_type: public
-_core:
-  default_config_hash: A_k0ZwrnLc07NfPad0ADTT6O09l691c3_s6Jztrphg0
-id: node.field_model
-field_name: field_model
+id: node.field_library_catalog_link
+field_name: field_library_catalog_link
 entity_type: node
-type: entity_reference
-settings:
-  target_type: taxonomy_term
-module: core
+type: link
+settings: {  }
+module: link
 locked: false
 cardinality: 1
 translatable: true

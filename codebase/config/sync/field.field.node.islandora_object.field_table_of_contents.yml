@@ -1,21 +1,21 @@
-uuid: ffe58242-6c39-43c4-a1b0-43154c37cd5f
+uuid: 9aabb34c-726e-4c92-949c-efb83d702d5a
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_description
+    - field.storage.node.field_table_of_contents
     - node.type.islandora_object
     - taxonomy.vocabulary.language
   module:
     - reference_value_pair
-id: node.islandora_object.field_description
-field_name: field_description
+id: node.islandora_object.field_table_of_contents
+field_name: field_table_of_contents
 entity_type: node
 bundle: islandora_object
-label: Description
-description: '<b>Optional</b>. If available, record descriptive information about the resource not captured in other fields.'
+label: 'Table of Contents'
+description: '<b>Optional</b>. If available, record a list of subunits of the resource.'
 required: false
-translatable: true
+translatable: false
 default_value: {  }
 default_value_callback: ''
 settings:
