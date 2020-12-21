@@ -44,6 +44,7 @@ dependencies:
     - field.field.node.islandora_object.field_spatial_coverage
     - field.field.node.islandora_object.field_subject
     - field.field.node.islandora_object.field_table_of_contents
+    - field.field.node.islandora_object.field_title_language
     - field.field.node.islandora_object.field_weight
     - field.field.node.islandora_object.field_years
     - node.type.islandora_object
@@ -51,6 +52,7 @@ dependencies:
     module:
       - islandora_defaults
   module:
+    - reference_value_pair
     - user
 _core:
   default_config_hash: zae03KDpB7clOXLmA52wfN-pGOrpH7xV1Y2nQcbSl-Q
@@ -64,18 +66,17 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_gemini_uri:
-    weight: 100
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-  islandora_fits_checksum:
-    weight: 100
-    settings: {  }
-    third_party_settings: {  }
-    region: content
-  links:
+  field_description:
+    type: reference_value_formatter
     weight: 1
+    region: content
+    label: above
+    settings:
+      display_invalid_reference: 1
+      invalid_reference_label: ''
+    third_party_settings: {  }
+  links:
+    weight: 2
     region: content
     settings: {  }
     third_party_settings: {  }
@@ -97,7 +98,6 @@ hidden:
   field_date_copyrighted: true
   field_date_created: true
   field_date_published: true
-  field_description: true
   field_digital_identifier: true
   field_digital_publisher: true
   field_display_hints: true
@@ -106,6 +106,7 @@ hidden:
   field_extent: true
   field_featured_item: true
   field_finding_aid: true
+  field_gemini_uri: true
   field_genre: true
   field_geoportal_link: true
   field_is_part_of: true
@@ -123,8 +124,10 @@ hidden:
   field_spatial_coverage: true
   field_subject: true
   field_table_of_contents: true
+  field_title_language: true
   field_weight: true
   field_years: true
+  islandora_fits_checksum: true
   langcode: true
   members_eva_entity_view_1: true
   openseadragon_media_evas_entity_view_1: true

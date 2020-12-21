@@ -44,6 +44,7 @@ dependencies:
     - field.field.node.islandora_object.field_spatial_coverage
     - field.field.node.islandora_object.field_subject
     - field.field.node.islandora_object.field_table_of_contents
+    - field.field.node.islandora_object.field_title_language
     - field.field.node.islandora_object.field_weight
     - field.field.node.islandora_object.field_years
     - node.type.islandora_object
@@ -92,14 +93,6 @@ content:
   field_item_barcode:
     type: string
     weight: 15
-    region: content
-    label: above
-    settings:
-      link_to_entity: false
-    third_party_settings: {  }
-  field_jhir:
-    type: string
-    weight: 14
     region: content
     label: above
     settings:
@@ -227,9 +220,11 @@ hidden:
   field_gemini_uri: true
   field_geoportal_link: true
   field_is_part_of: true
+  field_jhir: true
   field_model: true
   field_spatial_coverage: true
   field_table_of_contents: true
+  field_title_language: true
   field_weight: true
   field_years: true
   openseadragon_media_evas_entity_view_2: true

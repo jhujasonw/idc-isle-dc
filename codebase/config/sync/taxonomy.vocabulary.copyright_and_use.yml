@@ -4,5 +4,5 @@ status: true
 dependencies: {  }
 name: 'Copyright and Use'
 vid: copyright_and_use
-description: 'Copyright and Use employs standardized statements from RightsStatements.org to "communicate the copyright and re-use status of d'
+description: 'Copyright and Use uses RightsStatements.org to "communicate the copyright and re-use status of digital objects to the public."'
 weight: 0

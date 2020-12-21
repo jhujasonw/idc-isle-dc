@@ -1,10 +1,12 @@
-uuid: 26552086-4c85-4e8b-ba0b-3bd1a8097a9e
+uuid: 6054d387-fc5d-438e-bebb-998b0d3c3aad
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_jhir
     - node.type.islandora_object
+  module:
+    - link
 id: node.islandora_object.field_jhir
 field_name: field_jhir
 entity_type: node
@@ -15,5 +17,7 @@ required: false
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings: {  }
-field_type: string
+settings:
+  link_type: 16
+  title: 0
+field_type: link

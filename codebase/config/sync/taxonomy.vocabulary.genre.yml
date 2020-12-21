@@ -6,5 +6,5 @@ _core:
   default_config_hash: GtwZmHfoUe9zdJe_uX6oD5CU40m-0jfjiDk5USbdHMc
 name: Genre/Form
 vid: genre
-description: 'Genre/form terms describe what an item is, not what it is about. Form is defined as a characteristic of works with a particular '
+description: 'Genre/form terms describe the format or artistic category of the resource, not the subject of its contents.'
 weight: 0

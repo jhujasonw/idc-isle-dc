@@ -43,6 +43,7 @@ dependencies:
     - field.field.node.islandora_object.field_spatial_coverage
     - field.field.node.islandora_object.field_subject
     - field.field.node.islandora_object.field_table_of_contents
+    - field.field.node.islandora_object.field_title_language
     - field.field.node.islandora_object.field_weight
     - field.field.node.islandora_object.field_years
     - node.type.islandora_object
@@ -78,6 +79,7 @@ third_party_settings:
     group_descriptive:
       children:
         - title
+        - field_title_language
         - field_featured_item
         - field_resource_type
         - field_alternative_title
@@ -126,8 +128,8 @@ third_party_settings:
         - field_citable_url
         - field_dspace_identifier
         - field_dspace_item_id
-        - field_jhir
         - field_digital_identifier
+        - field_jhir
       parent_name: ''
       weight: 3
       format_type: details
@@ -218,7 +220,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_abstract:
-    weight: 16
+    weight: 17
     settings:
       size_value: 2000
       placeholder_value: ''
@@ -243,7 +245,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_alternative_title:
-    weight: 15
+    weight: 16
     settings:
       rows: 5
       size_value: 255
@@ -252,7 +254,7 @@ content:
     type: reference_value_select
     region: content
   field_citable_url:
-    weight: 24
+    weight: 63
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -260,7 +262,7 @@ content:
     type: link_default
     region: content
   field_collection_number:
-    weight: 23
+    weight: 24
     settings:
       size: 60
       placeholder: ''
@@ -268,7 +270,7 @@ content:
     type: string_textfield
     region: content
   field_contributor:
-    weight: 25
+    weight: 26
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -298,7 +300,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_creator:
-    weight: 26
+    weight: 27
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -326,23 +328,23 @@ content:
   field_date_created:
     weight: 40
     settings:
-      strict_dates: false
-      intervals: true
-      sets: false
+      strict_dates: 0
+      intervals: 0
+      sets: 0
     third_party_settings: {  }
     type: edtf_default
     region: content
   field_date_published:
-    weight: 41
+    weight: 42
     settings:
-      strict_dates: false
-      intervals: true
-      sets: false
+      strict_dates: 0
+      intervals: 0
+      sets: 0
     third_party_settings: {  }
     type: edtf_default
     region: content
   field_description:
-    weight: 17
+    weight: 18
     settings:
       rows: 5
       size_value: 255
@@ -351,7 +353,7 @@ content:
     type: reference_value_select
     region: content
   field_digital_identifier:
-    weight: 31
+    weight: 66
     settings:
       size: 60
       placeholder: ''
@@ -375,7 +377,7 @@ content:
     settings: {  }
     third_party_settings: {  }
   field_dspace_identifier:
-    weight: 25
+    weight: 64
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -383,7 +385,7 @@ content:
     type: link_default
     region: content
   field_dspace_item_id:
-    weight: 26
+    weight: 65
     settings:
       size: 60
       placeholder: ''
@@ -391,7 +393,7 @@ content:
     type: string_textfield
     region: content
   field_extent:
-    weight: 27
+    weight: 28
     settings:
       size: 60
       placeholder: ''
@@ -399,7 +401,7 @@ content:
     type: string_textfield
     region: content
   field_featured_item:
-    weight: 13
+    weight: 14
     settings:
       display_label: true
     third_party_settings: {  }
@@ -415,7 +417,7 @@ content:
     region: content
   field_genre:
     type: entity_reference_autocomplete
-    weight: 19
+    weight: 20
     region: content
     settings:
       match_operator: CONTAINS
@@ -432,7 +434,7 @@ content:
     type: link_default
     region: content
   field_is_part_of:
-    weight: 24
+    weight: 25
     settings:
       placeholder_url: ''
       placeholder_title: ''
@@ -456,16 +458,16 @@ content:
     type: string_textfield
     region: content
   field_jhir:
-    weight: 30
+    weight: 67
     settings:
-      size: 60
-      placeholder: ''
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
-    type: string_textfield
+    type: link_default
     region: content
   field_language:
     type: entity_reference_autocomplete
-    weight: 21
+    weight: 22
     region: content
     settings:
       match_operator: CONTAINS
@@ -526,13 +528,13 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_resource_type:
-    weight: 14
+    weight: 15
     settings: {  }
     third_party_settings: {  }
     type: options_select
     region: content
   field_spatial_coverage:
-    weight: 22
+    weight: 23
     settings:
       match_operator: CONTAINS
       match_limit: 10
@@ -542,7 +544,7 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_subject:
-    weight: 20
+    weight: 21
     settings:
       match_operator: CONTAINS
       size: 60
@@ -552,13 +554,19 @@ content:
     type: entity_reference_autocomplete
     region: content
   field_table_of_contents:
-    weight: 18
+    weight: 19
     settings:
       rows: 5
       size_value: 255
       placeholder_value: ''
     third_party_settings: {  }
     type: reference_value_select
+    region: content
+  field_title_language:
+    weight: 13
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
     region: content
   field_weight:
     weight: 15
