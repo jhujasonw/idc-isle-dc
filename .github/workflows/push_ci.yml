@@ -11,7 +11,7 @@
         steps:
           # Check out current commit
           - name: Checkout
-    	    uses: actions/checkout@v2
+            uses: actions/checkout@v2
     
           # Make sure buildkit is enabled
           - name: Enable buildkit
